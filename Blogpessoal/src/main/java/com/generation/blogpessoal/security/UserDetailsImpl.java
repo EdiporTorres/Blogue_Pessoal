@@ -12,11 +12,10 @@ public class UserDetailsImpl implements UserDetails {
 
 	private static final long serialVersionUID = 1L;
 	
-	@SuppressWarnings("unused")
 	private String userName;
-	@SuppressWarnings("unused")
+
 	private String password;
-	@SuppressWarnings("unused")
+
 	private List<GrantedAuthority> authorities;
 	
 	public UserDetailsImpl(Usuario user) {
