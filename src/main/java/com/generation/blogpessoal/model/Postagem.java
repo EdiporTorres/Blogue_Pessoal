@@ -23,11 +23,11 @@ public class Postagem {
 	private Long id;
 	
 	@NotBlank(message = "O Atributo titulo é obrigatorio")
-	@Size(min = 5, max= 100, message = "Deve contar de 5 a 100 caracteres")
+	@Size(min = 1, max= 1000, message = "Deve contar de 5 a 1000 caracteres")
 	private String titulo;
 	
 	@NotBlank(message = "O Atributo titulo é obrigatorio")
-	@Size(min = 1, max= 1000, message = "deve contar de 10 a 1000 caracterres")
+	@Size(min = 1 )
 	private String texto;
 	
 	@UpdateTimestamp
